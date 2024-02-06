@@ -28,8 +28,6 @@
 [**Conclusion and Next Steps**](#_toc157806855)
 
 
-
-
 <a name="_pu4584q35ccq"></a>**Executive Summary**
 
 A comprehensive analysis of customers and their purchasing behaviour was performed using Sobey's Retail Data. The entire dataset of Sobeys was considered for the analysis, and it focused on grouping the customers and products based on various attributes such as their visits, revenues generated, the number of products bought etc. Through the cluster analysis with the help of K-means, the customers and products were grouped together based on their similar characteristics, hence making it easier to provide recommendation for future decisions.
