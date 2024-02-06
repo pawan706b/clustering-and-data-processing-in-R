@@ -182,13 +182,14 @@ Here is the box plot for the outlier.
 
 There were a few more outliers in Avg Qty Sold that we very far from other data points but very close to themselves forming a cluster of themselves. Removing them as an outlier did would not have been a good approach.
 
-![A collage of black dots
-
-Description automatically generated](Aspose.Words.ed547907-72ab-4e6e-8ae0-532d2eb4bfa4.011.png)**Product Boxplot (After outlier removal)**
+**Product Boxplot (After outlier removal)**
 
 |![](Report/Aspose.Words.ed547907-72ab-4e6e-8ae0-532d2eb4bfa4.012.png)|![](Report/Aspose.Words.ed547907-72ab-4e6e-8ae0-532d2eb4bfa4.013.png)|
 | :- | :- |
 |![](Report/Aspose.Words.ed547907-72ab-4e6e-8ae0-532d2eb4bfa4.014.png)|![](Report/Aspose.Words.ed547907-72ab-4e6e-8ae0-532d2eb4bfa4.015.png)|
+
+![](Report/Aspose.Words.ed547907-72ab-4e6e-8ae0-532d2eb4bfa4.011.png)
+
 # <a name="_toc157806851"></a>**Cluster Analysis**
 The backbone of this analysis is k-means clustering algorithm which is used to separate customers and products into distinct groups based on their related characteristics. K-means distributes data points to clusters in such a way that the total of the squared distance between the data points and the cluster's centroid (the arithmetic mean of all the data points in that cluster) is the smallest [3]. K-means is widely used for its simplicity, and ability to handle large datasets. There are multiple ways to identify the number of clusters needed for the k-means analysis, the one used in the analysis of Sobey’s is elbow method.
 
