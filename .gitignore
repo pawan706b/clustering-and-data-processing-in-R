@@ -1,6 +1,5 @@
 # Datasets
-sales219.sql
-sobeyLarge.sql
+data/
 
 # History files
 .Rhistory
